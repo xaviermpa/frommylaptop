@@ -1,0 +1,144 @@
+<html>
+<title>  Xavier's Global Automation Centre </title>
+
+
+<header onload="formshide()"> 
+<link rel="stylesheet" href="stylesheet.css" >
+<h1> Xavier's Global Automation Centre </h1>
+
+</header>
+
+<body>
+
+<marquee direction="left"> 
+<img src="Automation.png">
+</marquee>
+
+
+
+<script>
+
+  function formshide()
+  {
+  document.getElementById("signin").style.display="block";
+  document.getElementById("signup").style.display="block";
+  location.reload();
+  }
+  
+    function sup()
+    {
+          document.getElementById("signup").style.display="inline";
+          document.getElementById("signin").style.display="block";
+        
+    }
+    
+    function sin()
+    {
+            document.getElementById("signin").style.display="inline";
+            document.getElementById("signup").style.display="block";
+           
+    }
+    
+    </script>
+  
+
+<br>
+<br>
+<br>
+    <p>
+    Please signin to download your suitable Automation tool <input type="button" name="signin" value="Sign In" onclick="sin()"> 
+    <br>
+    <br>
+    Register here <input type="button" name="sign up" value="Sign Up" onclick="sup()">
+   </p>
+
+ 
+<form id="signin" style="display: none;">
+<table align="center">
+  <br>
+ <tr> 
+  <td>Enter Email     :</td> <td><input type="text" name="email" value="email id"> </td>
+</tr>
+  <br>
+<tr>
+<td>Enter Password  :</td> <td><input type="password" name="typepwd" value="Password">  &nbsp 
+  <input type="button" name="Login" value="Login"> 
+  &nbsp
+  <input type="button" name="Later" value="Later" onclick="formshide()"> </td>
+</tr>
+</table>
+</form>
+
+
+<form id="signup" style="display: none;">
+<table align="center">
+<tr>
+  <br>
+  <td>Enter Name         : </td> <td>&nbsp<input type="text" name="name" value="Name"> </td> 
+</tr>
+<tr>
+<br>
+<td> Enter Email        : </td>&nbsp <td><input type="text" name="email" value="email id"> </td> 
+  <br>
+</tr>
+<tr>
+  <td>Enter passward     : </td>&nbsp <td><input type="password" name="typepwd" value="Password"> </td>
+  <br>
+</tr>
+<tr>
+  <td>Re-Enter Password  : </td> <td>&nbsp<input type="password" name="retypepwd" value="confirm Password"> 
+   </td> 
+</tr>
+<tr>
+  <td>Address Line1     : </td>&nbsp <td><input type="text" name="addln1" value="Address Line 1"> </td>
+</tr>
+<tr>
+  <td>Address Line2     : </td>&nbsp <td><input type="text" name="addln2" value="Address Line 2"> </td>
+</tr>
+<tr>
+  <td>City     : </td>&nbsp <td><input type="text" name="City" value="City"> </td>
+</tr>
+
+<tr>
+<td>  <label for="States">Select State: </label> </td>
+<td>
+<select name="States" id="states">
+  <option value="TamilNadu">TN</option>
+  <option value="Kerala">KL</option>
+  <option value="Karnataga">KR</option>
+  <option value="Andhra">AR</option>
+</select>
+</td>
+</tr>
+
+<tr>
+  <td>Country     : </td>&nbsp <td><input type="text" name="City" value="INDIA" disabled="true"> </td>
+</tr>
+
+<tr>
+  <td>Postal Code     : </td>&nbsp <td><input type="text" name="postalcode" value="Postal Code"> &nbsp<input type="button" name="Submit" value="Submit"> 
+    &nbsp
+    <input type="button" name="Later" value="Later" onclick="formshide()"></td>
+</tr>P
+
+</table>
+</form>
+
+<br>
+<br>
+
+<nav>
+ <marquee direction="right">
+ <a href="Introduction.html"> <img src="intro.png" width="50" height="60"> Introduction</a> |
+ <a href="AutomationTools.html"><img src="Auto.png" width="50" height="60" > Automation Tools</a> |
+ <a href="ContactUs.html"> <img src="contact.png" width="50" height="60" > Contact Us</a> |
+ </marquee>     
+</nav>
+
+<br>
+<br>
+
+
+</body>
+
+</html>
