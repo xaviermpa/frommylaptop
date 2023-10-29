@@ -53,16 +53,17 @@ public class HelloWorld {
 	
 
 	
-	String str1 = "I am feeling lucky";
-	
 	// rev the string and show in the output
-	
+	String str1 = "I am feeling lucky";
+	System.out.println("*****************************************");
+	System.out.println("The given string is : "+str1);
+	System.out.print("The reversed string is : ");
 	for(int k=str1.length()-1; k!=-1;k--)
 	{
 		System.out.print(str1.charAt(k));
 	}
 	
-	System.out.println();
+	System.out.println("\n"+"*****************************************");
 
 	// find the sum of all the digits in num2
 	// find out the rev num of num1
@@ -85,8 +86,10 @@ public class HelloWorld {
 	}System.out.print(numA + "\n");
 //	System.out.println();
 	System.out.println("sum of all digits = " +sum);
+	System.out.println("*****************************************");
 	
 	}
 
+	
 }
 
