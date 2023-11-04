@@ -1,0 +1,302 @@
+Phase-2 Agenda
+
+Core Java -  a programming language 
+Selenium
+IDE : https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd
+
+Webdriver
+Grid
+Framework using TestNg
+Framework using Cucumber 
+Database concepts - MySQL
+TDD using Junit
+
+
+//===================================================================
+
+Softwares required
+
+JDK8 or above https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html
+Eclipse : https://www.eclipse.org/downloads/
+Maven: https://maven.apache.org/download.cgi
+WebDriver : https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/3.141.59
+
+
+
+
+//===================================================
+
+package test;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(4+5);
+		
+		int num1=10;
+		int num2=20;
+		int result = num1+num2;
+		
+		System.out.println("The result is " + result);
+	}
+
+}
+//==============================================
+
+package test;
+
+public class StringOperations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str1 = "Clean India Green India";
+		
+		System.out.println("Total num of chars are " + str1.length());
+		
+		System.out.println("First char is " + str1.charAt(0));
+		
+		System.out.println("Last char is " + str1.charAt(str1.length()-1));
+		
+		System.out.println("The upper case string is " + str1.toUpperCase());
+
+	}
+
+}
+
+
+//=========================================================
+
+package test;
+
+public class ArrayExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr1 = {50,54,12,23,43,90};
+		
+		System.out.println("Total num of values inside array are " + arr1.length);
+		
+		System.out.println("Value at location 2 is " + arr1[1]);
+		
+		System.out.println("Value at last location is " + arr1[arr1.length-1]);
+
+	}
+
+}
+package test;
+
+public class LoopingExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// print all the numbers from 1 to 10
+		// while loop
+		
+		System.out.println(" Using while *************************");
+		int num1=1;
+		while(num1<=10) {
+			System.out.println(num1);
+			num1=num1+1;
+		}
+	
+		System.out.println("Using while in descending order *************************");
+		
+		// print all the numbers from 10 to 1
+		// while loop
+		
+		int num2=10;
+		while(num2>=1) {
+			System.out.println(num2);
+			num2=num2-1;
+		}
+		
+		System.out.println("Using for loop *************************");
+		// print all the numbers from 1 to 10
+		// for loop
+		for(int num3=1;num3<=10;num3++) {
+			
+			System.out.println(num3);
+		}
+		
+		System.out.println("Even numbers Using for loop *************************");
+		
+		// Find even numbers between 1 to 50 using for loop
+		for(int num4=2;num4<=50;num4+=2) {
+			
+			System.out.println(num4);
+		}
+		
+		// for each loop
+		System.out.println("Using for each loop *************************");
+		
+		int[] arr1 = {50,54,12,23,43,90};
+		int sum = 0;
+		for(int value:arr1) {
+			
+			System.out.println(value);
+			sum+=value;
+			
+		}
+		System.out.println("Sum is " + sum);
+		
+		//**************************************
+		
+		String str = "Automation testing using selenium and Java";
+		
+		
+		// solution 1
+		int count=1;
+		for(int i=0;i<str.length();i++) {
+			
+			if(str.charAt(i)==' ') {
+				count++;
+			}
+		}
+		
+		System.out.println("Total num of words are " + count);
+		 
+		
+		//solution2
+		
+		System.out.println("Total num of words are " + str.split(" ").length);
+			
+		
+	}
+
+}
+
+
+
+
+
+
+//================================================================
+
+package test;
+
+public class ReversalExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// String reversal
+		String str = "I am feeling lucky";
+		String reversedString = "";
+		for (int i = str.length(); i > 0; i--) {
+			reversedString = reversedString + str.charAt(i - 1);
+		}
+		System.out.println("##################String reversal##################");
+		System.out.println(reversedString);
+
+		// find the sum of all the digits in num1
+		int sumofDigits = 0;
+		int reverseDigit = 0;
+		for (int num1 = 10282023; num1 > 0; num1 /= 10) {
+			int remainder = num1 % 10;
+			reverseDigit = reverseDigit * 10 + remainder;
+			sumofDigits += remainder;
+			// System.out.println(remainder);
+		}
+
+		// find the reverse of num1
+		System.out.println("##################Reverse digits###################");
+		System.out.println(reverseDigit);
+
+		// find the sum of all the digits in num1
+		System.out.println("###############sum of all the digits###############");
+		System.out.println(sumofDigits);
+
+	}
+
+}
+
+
+
+//================================================
+
+package oops;
+
+public class Employee {
+	
+	public String Name;
+	public int EmpId;
+	private int Salary;
+	
+	public void Display() {
+		
+		System.out.println("Name of the employee is " + Name);
+		System.out.println("Id of the employee is " + EmpId);
+		System.out.println("Salary of the employee is " + Salary);
+	}
+	
+	public void SetSalary(int sal) {
+		
+		this.Salary = sal;
+	}
+	
+	// Default cons
+	public Employee() {
+		
+		System.out.println("Inside default cons");
+	}
+	
+	
+	// parameterized cons
+	public Employee(String Name1,int EmpId1, int Salary1) {
+		
+		System.out.println("Inside param cons");
+		
+		this.Name = Name1;
+		this.EmpId = EmpId1;
+		this.Salary = Salary1;
+				
+	}
+
+}
+
+
+
+
+
+
+//=============================================
+
+package oops;
+
+public class RunnerClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Employee emp1 = new Employee();
+		emp1.Name = "Ramya";
+		emp1.EmpId = 100;
+		emp1.SetSalary(50000);
+		
+		
+		Employee emp2 = new Employee();
+		emp2.Name = "Ashima";
+		emp2.EmpId = 101;
+		emp2.SetSalary(75000);
+		
+		
+		Employee emp3 = new Employee("Rohini",102,80000);
+		
+		emp1.Display();
+		emp2.Display();
+		emp3.Display();
+
+	}
+
+}
+
+
+
+
+
+
