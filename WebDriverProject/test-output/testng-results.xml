@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-24T14:16:01Z" name="Suite" finished-at="2023-11-24T14:16:01Z" duration-ms="64">
+    <groups>
+      <group name="sanity">
+        <method signature="CardTest.TC01_CreditCardTest()[pri:0, instance:testng.CardTest@36b4091c]" name="TC01_CreditCardTest" class="testng.CardTest"/>
+        <method signature="LoanTest.TC00_PersonalLoanTest()[pri:0, instance:testng.LoanTest@4671115f]" name="TC00_PersonalLoanTest" class="testng.LoanTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-11-24T14:16:01Z" name="Test" finished-at="2023-11-24T14:16:01Z" duration-ms="64">
+      <class name="testng.CardTest">
+        <test-method signature="TC01_CreditCardTest()[pri:0, instance:testng.CardTest@36b4091c]" started-at="2023-11-24T14:16:01Z" name="TC01_CreditCardTest" finished-at="2023-11-24T14:16:01Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_CreditCardTest -->
+      </class> <!-- testng.CardTest -->
+      <class name="testng.LoanTest">
+        <test-method signature="TC00_PersonalLoanTest()[pri:0, instance:testng.LoanTest@4671115f]" started-at="2023-11-24T14:16:01Z" name="TC00_PersonalLoanTest" finished-at="2023-11-24T14:16:01Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC00_PersonalLoanTest -->
+      </class> <!-- testng.LoanTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
