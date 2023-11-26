@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-26T17:06:52Z" name="Default suite" finished-at="2023-11-26T17:06:57Z" duration-ms="4947">
+    <groups>
+    </groups>
+    <test started-at="2023-11-26T17:06:52Z" name="Default test" finished-at="2023-11-26T17:06:57Z" duration-ms="4947">
+      <class name="TestCases.AddProductToCart">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.AddProductToCart@36b4091c]" started-at="2023-11-26T17:06:52Z" name="Setup" finished-at="2023-11-26T17:06:55Z" duration-ms="3040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddGivenProducttoCartbyname()[pri:0, instance:TestCases.AddProductToCart@36b4091c]" started-at="2023-11-26T17:06:55Z" name="AddGivenProducttoCartbyname" finished-at="2023-11-26T17:06:56Z" duration-ms="1597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddGivenProducttoCartbyname -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.AddProductToCart@36b4091c]" started-at="2023-11-26T17:06:56Z" name="TearDown" finished-at="2023-11-26T17:06:57Z" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCases.AddProductToCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
