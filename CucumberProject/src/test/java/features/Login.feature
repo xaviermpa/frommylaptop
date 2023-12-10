@@ -1,9 +1,10 @@
+@Login
 Feature: This feature will be used to login into Simplilearn Website
 
   Background: 
     Given I have launched the application URL
     And I click on the Login link
-@Sanity
+@Sanity @Regression
   Scenario: Validate Login success scenario
     When I enter the username
     And I enter the password
@@ -28,7 +29,7 @@ Feature: This feature will be used to login into Simplilearn Website
       | Abc@xyz.com | Abc@1234 | The email or password you have entered is invalid. |
       | Pqr@xyz.com | Pqr@1234 | The email or password you have entered is invalid. |
 
-@Sanity
+@Sanity @Regression
 Scenario: Validate the other login options on the screen
     Then I should see below login options on the screen
       | Google   |

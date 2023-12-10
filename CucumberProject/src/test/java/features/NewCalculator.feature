@@ -1,3 +1,4 @@
+@Calc
 Feature: This feature will help to develop a calculator
 
   Background: 
@@ -7,7 +8,8 @@ Feature: This feature will help to develop a calculator
   Scenario: To add two numbers
     When I add 5 and 4
     Then I should get the result as 9
-
+    
+@Regression @Sanity
   Scenario: To sub two numbers
     When I sub 12 and 4
     Then I should get the result as 8

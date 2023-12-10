@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		plugin= {"pretty"},
 		features= "src/test/java/features",
 		glue="stepdefs",
-		tags= {"@Sanity"}
+		tags= {"@Calc"}
 		)
 
 public class TestRunner {
