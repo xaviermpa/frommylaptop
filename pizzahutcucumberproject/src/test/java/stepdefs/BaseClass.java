@@ -21,13 +21,13 @@ public class BaseClass {
 		//driver.get("https://pizzhut.co.in/");
 
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
+		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
 	}
 
 	@After
 	public void TearDown() {
 
-		//driver.close();
+		driver.close();
 
 	}
 
