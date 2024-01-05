@@ -18,8 +18,8 @@ public void AddGivenProducttoCartbyname()
 {
 	LoginPage login = new LoginPage(driver);
 	login.LoginFunction("standard_user","secret_sauce");	
-	WebElement productheader = driver.findElement(By.className("product_label"));
-	Assert.assertEquals(productheader.getText(),"Products");
+	WebElement productpageheader = driver.findElement(By.className("app_logo"));
+	Assert.assertEquals(productpageheader.getText(),"Swag Labs");
 	
 	ProductPage product = new ProductPage(driver);
 	product.AddProducttoCartbyName("Sauce Labs Backpack");

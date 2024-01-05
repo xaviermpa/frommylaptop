@@ -17,10 +17,10 @@ public void Setup()
 {
 	WebDriverManager.chromedriver().setup();
 	driver = new ChromeDriver();
-	driver.get("https://www.saucedemo.com/v1/");
+	driver.get("https://www.saucedemo.com");
 
 	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
+	driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
 }
 
 @AfterMethod

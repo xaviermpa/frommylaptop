@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-26T17:06:52Z" name="Default suite" finished-at="2023-11-26T17:06:57Z" duration-ms="4947">
+  <suite started-at="2024-01-05T07:29:25Z" name="Suite" finished-at="2024-01-05T07:29:39Z" duration-ms="13970">
     <groups>
     </groups>
-    <test started-at="2023-11-26T17:06:52Z" name="Default test" finished-at="2023-11-26T17:06:57Z" duration-ms="4947">
+    <test started-at="2024-01-05T07:29:25Z" name="Test" finished-at="2024-01-05T07:29:39Z" duration-ms="13970">
       <class name="TestCases.AddProductToCart">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.AddProductToCart@36b4091c]" started-at="2023-11-26T17:06:52Z" name="Setup" finished-at="2023-11-26T17:06:55Z" duration-ms="3040" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.AddProductToCart@3697186]" started-at="2024-01-05T07:29:34Z" name="Setup" finished-at="2024-01-05T07:29:37Z" duration-ms="3441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="AddGivenProducttoCartbyname()[pri:0, instance:TestCases.AddProductToCart@36b4091c]" started-at="2023-11-26T17:06:55Z" name="AddGivenProducttoCartbyname" finished-at="2023-11-26T17:06:56Z" duration-ms="1597" status="PASS">
+        <test-method signature="AddGivenProducttoCartbyname()[pri:0, instance:TestCases.AddProductToCart@3697186]" started-at="2024-01-05T07:29:37Z" name="AddGivenProducttoCartbyname" finished-at="2024-01-05T07:29:39Z" duration-ms="1438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddGivenProducttoCartbyname -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.AddProductToCart@36b4091c]" started-at="2023-11-26T17:06:56Z" name="TearDown" finished-at="2023-11-26T17:06:57Z" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.AddProductToCart@3697186]" started-at="2024-01-05T07:29:39Z" name="TearDown" finished-at="2024-01-05T07:29:39Z" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- TestCases.AddProductToCart -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="TestCases.LoginScenarios">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.LoginScenarios@36cda2c2]" started-at="2024-01-05T07:29:25Z" name="Setup" finished-at="2024-01-05T07:29:29Z" duration-ms="3967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginFailureTest()[pri:0, instance:TestCases.LoginScenarios@36cda2c2]" started-at="2024-01-05T07:29:29Z" name="LoginFailureTest" finished-at="2024-01-05T07:29:30Z" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFailureTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.LoginScenarios@36cda2c2]" started-at="2024-01-05T07:29:30Z" name="TearDown" finished-at="2024-01-05T07:29:30Z" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.LoginScenarios@36cda2c2]" started-at="2024-01-05T07:29:30Z" name="Setup" finished-at="2024-01-05T07:29:33Z" duration-ms="2754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginSuccessTest()[pri:0, instance:TestCases.LoginScenarios@36cda2c2]" started-at="2024-01-05T07:29:33Z" name="LoginSuccessTest" finished-at="2024-01-05T07:29:34Z" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSuccessTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.LoginScenarios@36cda2c2]" started-at="2024-01-05T07:29:34Z" name="TearDown" finished-at="2024-01-05T07:29:34Z" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCases.LoginScenarios -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,0 +1,5 @@
+Pages\ProductPage.class
+Pages\LoginPage.class
+TestCases\HelperLibrary.class
+TestCases\LoginScenarios.class
+TestCases\AddProductToCart.class
