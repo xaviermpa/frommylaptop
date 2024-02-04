@@ -1,0 +1,48 @@
+{
+	"id": "9f2adbbf-4b3a-48b7-bb81-efb27af855db",
+	"name": "DataDrivenTest",
+	"timestamp": "2024-01-27T16:55:42.567Z",
+	"collection_id": "32462038-55b06918-9085-4787-a01a-94b7f9cf1367",
+	"folder_id": 0,
+	"environment_id": "32462038-cb7143e9-6ebf-4bd3-bdf6-a075ec979d05",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-01-27T16:55:42.188Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e28cf434-23cf-4c21-bc50-491bdc3eca02",
+			"name": "Get Employee",
+			"url": "http://localhost:3000/employees/3",
+			"time": 6,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9,
+				6,
+				6
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 21,
+	"collection": {
+		"requests": [
+			{
+				"id": "e28cf434-23cf-4c21-bc50-491bdc3eca02",
+				"method": "GET"
+			}
+		]
+	}
+}

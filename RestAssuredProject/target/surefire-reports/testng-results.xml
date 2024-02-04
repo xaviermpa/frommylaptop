@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-04T17:31:53Z" name="Suite" finished-at="2024-02-04T17:31:56Z" duration-ms="3331">
+    <groups>
+      <group name="broken">
+        <method signature="APIOperationsTest.DeleteOperation()[pri:0, instance:RestAPIBDD.APIOperationsTest@6c2ed0cd]" name="DeleteOperation" class="RestAPIBDD.APIOperationsTest"/>
+      </group> <!-- broken -->
+    </groups>
+    <test started-at="2024-02-04T17:31:53Z" name="Test" finished-at="2024-02-04T17:31:56Z" duration-ms="3331">
+      <class name="RestAPIBDD.APIOperationsTest">
+        <test-method signature="DeleteOperation()[pri:0, instance:RestAPIBDD.APIOperationsTest@6c2ed0cd]" started-at="2024-02-04T17:31:53Z" name="DeleteOperation" finished-at="2024-02-04T17:31:54Z" duration-ms="1455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteOperation -->
+        <test-method signature="GetOperation()[pri:0, instance:RestAPIBDD.APIOperationsTest@6c2ed0cd]" started-at="2024-02-04T17:31:54Z" name="GetOperation" finished-at="2024-02-04T17:31:55Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetOperation -->
+        <test-method signature="GetOperationwithParam()[pri:0, instance:RestAPIBDD.APIOperationsTest@6c2ed0cd]" started-at="2024-02-04T17:31:55Z" name="GetOperationwithParam" finished-at="2024-02-04T17:31:55Z" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetOperationwithParam -->
+        <test-method signature="GetOperationwithQueryParam()[pri:0, instance:RestAPIBDD.APIOperationsTest@6c2ed0cd]" started-at="2024-02-04T17:31:55Z" name="GetOperationwithQueryParam" finished-at="2024-02-04T17:31:56Z" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetOperationwithQueryParam -->
+        <test-method signature="PostOperation()[pri:0, instance:RestAPIBDD.APIOperationsTest@6c2ed0cd]" started-at="2024-02-04T17:31:56Z" name="PostOperation" finished-at="2024-02-04T17:31:56Z" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostOperation -->
+        <test-method signature="PutOperation()[pri:0, instance:RestAPIBDD.APIOperationsTest@6c2ed0cd]" started-at="2024-02-04T17:31:56Z" name="PutOperation" finished-at="2024-02-04T17:31:56Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutOperation -->
+      </class> <!-- RestAPIBDD.APIOperationsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

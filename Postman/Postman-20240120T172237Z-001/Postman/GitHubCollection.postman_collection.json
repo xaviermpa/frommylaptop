@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "b6178184-b967-41f9-9265-46d272ad3806",
+		"name": "GitHubCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32462038"
+	},
+	"item": [
+		{
+			"name": "Get All Repo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/users/xaviermpa/repos",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"users",
+						"xaviermpa",
+						"repos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Repo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "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",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"PostmanDemo0127\",\r\n    \"desription\": \"Test Repo created from postman\",\r\n    \"homepage\": \"https://github.com/\",\r\n    \"private\": false,\r\n    \"has_issues\": true,\r\n    \"has_projects\": true,\r\n    \"has_wiki\": true\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.github.com/user/repos",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"user",
+						"repos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteRepo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "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",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/repos/xaviermpa/PostmanDemo0127",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"xaviermpa",
+						"PostmanDemo0127"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

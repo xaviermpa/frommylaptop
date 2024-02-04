@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "ff565515-4e32-46e3-aba5-ef96156da223",
+		"name": "Variable Examples",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32462038"
+	},
+	"item": [
+		{
+			"name": "GlobalVariable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseURL}}\\1",
+					"host": [
+						"{{BaseURL}}"
+					],
+					"path": [
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EnvironmentVariable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}",
+					"host": [
+						"{{URL}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CollectionVariable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}\\{{Var1}}",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"{{Var1}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Var1",
+			"value": "1",
+			"type": "string"
+		}
+	]
+}

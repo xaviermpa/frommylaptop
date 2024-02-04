@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "55b06918-9085-4787-a01a-94b7f9cf1367",
+		"name": "DataDrivenTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32462038"
+	},
+	"item": [
+		{
+			"name": "Get Employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{endpoint}}/{{empid}}",
+					"host": [
+						"{{endpoint}}"
+					],
+					"path": [
+						"{{empid}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
