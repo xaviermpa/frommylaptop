@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-11T17:34:02Z" name="Default suite" finished-at="2024-02-11T17:34:04Z" duration-ms="2156">
+    <groups>
+    </groups>
+    <test started-at="2024-02-11T17:34:02Z" name="Default test" finished-at="2024-02-11T17:34:04Z" duration-ms="2156">
+      <class name="CRUDOperations.AutomateAPITesting">
+        <test-method signature="Get_ListOfUsers()[pri:0, instance:CRUDOperations.AutomateAPITesting@73302995]" started-at="2024-02-11T17:34:02Z" name="Get_ListOfUsers" finished-at="2024-02-11T17:34:04Z" duration-ms="1658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_ListOfUsers -->
+        <test-method signature="Post_CreateUser()[pri:0, instance:CRUDOperations.AutomateAPITesting@73302995]" started-at="2024-02-11T17:34:04Z" name="Post_CreateUser" finished-at="2024-02-11T17:34:04Z" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Post_CreateUser -->
+      </class> <!-- CRUDOperations.AutomateAPITesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
